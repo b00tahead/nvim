@@ -9,7 +9,7 @@ return {
     config = function()
       -- load the colorscheme here
       vim.cmd([[colorscheme tokyonight]])
-      require("config.colorscheme")
+      -- require("config.colorscheme")
     end,
   },
   { "nvim-lua/plenary.nvim" },
