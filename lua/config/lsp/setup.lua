@@ -126,7 +126,7 @@ require("mason-lspconfig").setup_handlers {
     })
   end,
 
-  ["vuels"] = function ()
+  ["vuels"] = function()
     lspconfig.vuels.setup({
       filetypes = require("config.lsp.servers.vuels").filetypes,
       handlers = handlers,
